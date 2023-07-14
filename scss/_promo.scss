@@ -1,0 +1,13 @@
+.promo {
+    flex: 0 0 827px;
+    display: flex;
+    flex-direction: column;
+    &__image {
+        width: 100%;
+        max-width: 827px;
+        height: auto;
+        margin-top: 127px;
+        margin-bottom: 123px;
+        margin-right: 15px;
+    }
+}

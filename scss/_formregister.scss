@@ -1,0 +1,154 @@
+.formregister {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    &__logo {
+        margin-top: 31px;
+        margin-left: 42px;
+    }
+    
+    &__content {
+    background: #FFFFFF;
+    border: 0.5px solid #878787;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+        margin-bottom: 85px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 111px;
+        width: 100%;
+        max-width: 505px;
+        height: 757px;
+    }
+    &__subhead {
+        margin-top: 14px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 38px;
+        color: #000000;
+        }
+    &__title {
+    margin-bottom:1px;
+    margin-left: 35px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+    }
+    &__subtitle {
+    margin-left: 35px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    }
+
+    &__header {
+    margin-left: 104px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D7D7D;
+    }
+    &__link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    }
+    &__button-box {
+        margin-top: 31px;
+        margin-bottom: 20px;
+        & > button {
+            margin-left: 35px;
+        background: #000000;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 423px;
+        padding-top: 17px;
+        padding-bottom: 16px;
+        text-align: center;
+        cursor: pointer;
+        }
+    }
+}
+
+.logo {
+    margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input-box {
+    margin-left: 35px;
+    margin-bottom: 24px;
+    &:last-of-type {
+        margin-bottom: 0px;
+    }
+    &__info {
+        display: block;
+        margin-bottom: 9px;
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    user-select: none;
+    
+    &__icon {
+        padding-right: 100px;
+        position: absolute;
+    user-select: none;
+    }
+    }
+    & > input {
+        width: 423px;
+        box-sizing: border-box;
+        padding-bottom: 19px;
+        padding-top: 19px;
+        padding-left: 27px;
+        color: #ABABAB;       
+        background: #FFFFFF;
+        border: 0.6px solid #282828;
+        border-radius: 6px;
+
+    }
+}
+
+.confrimpassword__label {
+    position: relative;
+    .confrimpassword__btn.active {
+        &::after {
+            opacity: 0;
+        }
+    }
+.confrimpassword__btn {
+    position: absolute;
+    size: 5%;
+    right: 53px;
+    top: 29px;
+    cursor: pointer;
+    &::after {
+        position: absolute;
+        content: '';
+        top: 30px;
+        right: 16px;
+        width: 32px;
+        height: 3px;
+        background: black;
+        transform: rotate(45deg);
+        transition: .3s all ease;
+        opacity: 1;
+    }
+    }
+}

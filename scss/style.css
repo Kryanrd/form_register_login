@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.form {
+  flex: 1 0 auto;
+  background-color: blue;
+}
+
+.promo {
+  flex: 0 0 598px;
+}/*# sourceMappingURL=style.css.map */

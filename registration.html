@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sign up</title>
+    <div class="secterContent"></div>
+</head>
+<body>
+    <div class="container">
+        <section class="formregister" id = "authForm">
+            <a href="#" class="formregister__logo logo" style="text-decoration: none">Your Logo</a>
+            <div class="formregister__content">
+              <p class="formregister__subhead">Welcome !</p>
+                <h1 class="formregister__title">Sign up to</h1>
+                <p class="formregister__subtitle">Lorem Ipsum is simply </p>
+                <form action="#" class="formregister__form-box form-box">
+                  <div class="formregister-box__input-box input-box">
+                    <label class="input-box__info" for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="formregister-box__input-box input-box">
+                    <label class="input-box__info" for="username">User name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your user name"
+                    />
+                  </div>
+                  <div class="formregister-box__input-box input-box">
+                    <label class="input-box__info password__label" for="password">Password
+                      <div class="password__btn "><img src="./img/eyepass.svg" alt=""></div>
+                    </label>
+                    <input type="password" name="password" class ="form__input password__input" id="password" placeholder="Enter your Password"
+                    />
+                  </div>
+                  <div class="formregister-box__input-box input-box">
+                    <label class="input-box__info confrimpassword__label" for="confrim__password">Confrim Password
+                      <div class="confrimpassword__btn"><img src="./img/eyepass.svg" alt=""></div>
+                    </label>
+                    <input type="password"  name="confrim__password" class ="form__input confrimpassword__input" id="confrim_password" placeholder="Confrim your Password"
+                    />
+                  </div>
+                  <div class="formregister__button-box button-box">
+                    <button type="submit" id= "SignUpButton" onclick="alerted();">Register</button>
+                </div>
+                <p class="formregister__header">Already have an Account ? <a href="./login.html" class="form__link" style="text-decoration: none">Sign in</a></p>
+                  </form>
+            </div>
+        </section>
+        <section class="promo">
+          <div class="promo__box">
+            <div class="promo__content">
+              <img src="./img/people.png" alt="people" class="promo__image">
+            </div>
+          </div>
+        </section>
+    </div>
+<script src="./js/registration.js" type="module"></script>
+</body>
+</html>

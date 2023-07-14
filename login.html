@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sign in</title>
+    <div class="secterContent">
+    </div>
+</head>
+<body>
+    <div class="container">
+        <section class="form">
+            <a href="#" class="form__logo logo" style="text-decoration: none">Your Logo</a>
+            <div class="form__content">
+              <p class="form__subhead">Welcome !</p>
+                <h1 class="form__title">Sign in to</h1>
+                <p class="form__subtitle">Lorem Ipsum is simply </p>
+                <form action="#" class="form__form-box form-box">
+                  <div class="form-box__input-box input-box">
+                    <label class="input-box__info" for="username">User name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your user name"
+                    />
+                  </div>
+                  <div class="form-box__input-box input-box">
+                    <label class="input-box__info password__label" for="password">Password
+                      <div class="password__btn "><img src="./img/eyepass.svg" alt=""></div>
+                    </label>
+                    <input type="password" name="password" class ="form__input password__input" id="password" placeholder="Enter your Password"
+                    />
+                  </div>
+                  <div class="form__button-box button-box" id="SignInButton">
+                    <button type="submit" id= "SignInButton"  onclick="alerted();">Login</button>
+                </div>
+                <p class="form__header">Don’t have an Account ? <a href="./registration.html" class="form__link" style="text-decoration: none">Register</a></p>
+                  </form>
+            </div>
+        </section>
+        <section class="promo">
+          <div class="promo__box">
+            <div class="promo__content">
+              <img src="./img/people.png" alt="people" class="promo__image">
+            </div>
+          </div>
+        </section>
+    </div>
+</body>
+<script src="./js/login.js" type="module"></script>
+</html>
